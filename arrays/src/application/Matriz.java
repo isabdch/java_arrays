@@ -31,19 +31,19 @@ public class Matriz {
 					System.out.println("\nPosition " + i + "," + j + ":");
 					
 					if (j > 0) {
-						System.out.println("Left: " + arr[i][j-1]);
+						System.out.println("Left: " + arr[i][j - 1]);
 					}
 					
 					if (i > 0) {
-						System.out.println("Up: " + arr[i-1][j]);
+						System.out.println("Up: " + arr[i - 1][j]);
 					}
 					
-					if (j < arr[i].length-1) {
-						System.out.println("Right: " + arr[i][j+1]);
+					if (j < arr[i].length - 1) {
+						System.out.println("Right: " + arr[i][j + 1]);
 					}
 					
-					if (i < arr.length-1) {
-						System.out.println("Down: " + arr[i+1][j]);
+					if (i < arr.length - 1) {
+						System.out.println("Down: " + arr[i + 1][j]);
 					}
 				}
 			}
